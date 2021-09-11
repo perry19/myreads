@@ -4,11 +4,12 @@
   "private": true,
   "dependencies": {
     "prop-types": "^15.6.2",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
+    "react": "^18.0.0-alpha-cb8a50619-20210909",
+    "react-dom": "^18.0.0-alpha-cb8a50619-20210909",
     "react-loader-spinner": "^4.0.0",
     "react-router-dom": "^5.3.0",
-    "react-scripts": "^2.1.8"
+    "react-scripts": "^2.1.8",
+    "react-toastify": "^8.0.2"
   },
   "scripts": {
     "start": "react-scripts start",

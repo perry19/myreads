@@ -1,4 +1,4 @@
 import BookShelfItem from './BookShelfItem'
-import Loading from './Loading'
+import Loading from './loading'
 
 export { BookShelfItem, Loading }
