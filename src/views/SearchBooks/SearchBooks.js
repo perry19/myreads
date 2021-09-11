@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import { searchBooks } from '../../api/BooksAPI'
+import { search } from '../../api/BooksAPI'
 import { APIErrorHandling } from '../../errors'
 import { BookShelfItem, Loading } from '../../components'
 import { WORDS } from '../../constants/keywords'
@@ -16,7 +16,7 @@ class SearchBooks extends Component {
             loading: !prevState.loading
         }))
 
-        searchBooks(event.target.value)
+        search(event.target.value)
             .then(books => {
                 if ('error' in books) {
                     this.setState(prevState => ({
